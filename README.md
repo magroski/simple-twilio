@@ -10,5 +10,5 @@ This library provides a quick and simple way to send messages using Twilio
 
 ```php
 $client = new Client('user', 'pass');
-$client->send('11 98888-1111', 'Happy Day', 123);
+$client->send('11 98888-1111', '133-288-1111', 'Happy Day');
 ```
