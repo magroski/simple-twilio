@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  app:
+    image: magroski/php-dev:cli
+    volumes:
+      - "./:/usr/src/app"
+    working_dir: "/usr/src/app/"
